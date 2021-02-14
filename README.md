@@ -199,7 +199,7 @@ from tf_trt_models.detection import download_detection_model
 
 config_path, checkpoint_path = download_detection_model('ssd_inception_v2_coco')
 ```
-To manually download the pretrained models, follow the links [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
+To manually download the pretrained models, follow the links [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md).
 
 > **Important:** Some of the object detection configuration files have a very low non-maximum suppression score threshold (ie. 1e-8).
 > This can cause unnecessarily large CPU post-processing load.  Depending on your application, it may be advisable to raise 
